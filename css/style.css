@@ -55,3 +55,14 @@ body {
     transform: scale(2.25, 1.5);
     transition: all 200ms;
 }
+
+#about-ttt-dropdown * {
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    background-color: darkslategray;
+}
+
+#about-ttt-dropdown-text {
+    margin: 20px 0;
+}
