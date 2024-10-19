@@ -1,27 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Tic-tac-toe Online</title>
-    <link href="css/style.css" rel="stylesheet">
-    <script src="js/game.js"></script>
-  </head>
-  <body>
-      <h1>Tic-tac-toe Online!</h1>
-    <div class="wrapper">
-      <div class="game-grid">
-        <p class="game-cell"><span>1</span></p>
-        <p class="game-cell"><span>2</span></p>
-        <p class="game-cell"><span>3</span></p>
-        <p class="game-cell"><span>4</span></p>
-        <p class="game-cell"><span>5</span></p>
-        <p class="game-cell"><span>6</span></p>
-        <p class="game-cell"><span>7</span></p>
-        <p class="game-cell"><span>8</span></p>
-        <p class="game-cell"><span>9</span></p>
-      </div>
-    </div>
-  </body>
-</html>
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tic tac toe</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/game.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1 id="header-welcome">Welcome to Tic Tac Toe!</h1>
+        <h1 id="header-winner-x">X is the WINNER!</h1>
+        <h1 id="header-winner-o">O is the WINNER!</h1>
+
+        <div class="grid">
+            <div class="game-cell">
+                <p>1</p>
+            </div>
+            <div class="game-cell">
+                <p>2</p>
+            </div>
+            <div class="game-cell">
+                <p>3</p>
+            </div>
+            <div class="game-cell">
+                <p>4</p>
+            </div>
+            <div class="game-cell">
+                <p>5</p>
+            </div>
+            <div class="game-cell">
+                <p>6</p>
+            </div>
+            <div class="game-cell">
+                <p>7</p>
+            </div>
+            <div class="game-cell">
+                <p>8</p>
+            </div>
+            <div class="game-cell">
+                <p>9</p>
+            </div>
+        </div>
+
+        <div id="about-ttt-dropdown">
+            <a id="about-ttt-dropdown-text">About Tic-Tac-Toe</a>
+            <p id="about-ttt-text">
+                Online Tic-Tac-Toe
+
+                by AERoNautical (github.com/shqsi)
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
